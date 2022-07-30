@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/estilo_cadastro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="img/logo-removebg-preview.png" alt=""></a>
+    </div>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+  
+    <section id="pesquisa">
+        <div class="cont">
+        <img class="user" src="img/user.png" alt="">
+        <ul class="nav_login"> 
+            <li>
+            <form class="login" method="post" action="">
+                    <p>
+                        <label class="label1" for="usuario">Seu nome:<br> </label>
+                        <input id="nome_login" name="nome_login" required="required" type="text"
+                            placeholder="Nome de Usuário" />
+                    </p>
+
+                    <p>
+                        <label class="label2" for="senha">Sua senha:</label>
+                        <input id="senha" name="senha" required="required" type="password"
+                            placeholder="********" />
+                    </p>
+
+                    <p>
+                        <input class="submit" formaction="login.html" type="submit" value="Logar" />
+                    </p>
+
+                </form>
+            </li>
+            </ul>
+
+        </div>
+        <form class="pesquisabarra" method="post" action="">
+            <input id="pesquisaimg" name="pesquisa" required="required" type="search" placeholder="Pesquise Aqui!" />
+            <img class="search" src="img/search.png" alt="">
+    </section>
+    <nav>
+        <div id="menu">
+            <ul class="nav">
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    
+    <h2 class="infopet">Informações sobre o Pet:</h2>
+    <img class="risco1" src="img/risco.png" alt="">
+    <form class="cadastro" method="get" action="">
+
+         <p>
+            <label class="label1" for="usuario">Nome Pet:<br> </label>
+            <input id="pet" name="nomepet" required="required" type="text" placeholder="Nina"/>
+        </p> 
+
+         <p>
+            <label class="label2" for="idade">Idade:</label>
+            <input id="idade" name="idade" required="required" type="number" placeholder="7"/>
+        </p>
+
+        <p>
+            <label class="label3" for="peso">Peso:</label>
+            <input id="peso" name="idade" required="required" type="number" placeholder="10" />
+        </p>
+        
+        <p>
+            <label class="label4" for="tipo">Tipo:</label>
+        <div class="radio">
+            <input type="radio" class="canino" name="canino" required="required" value="Canino" />Canino <br>
+            <input type="radio" name="felino" required="required" value="Felino" />Felino <br>
+            <input type="radio" name="outro" required="required" value="Outro" />Outro <br>
+        </div>
+       
+        <label class="label5" for="raca">Raça:</label>
+        <select class="raca">
+            <option value="Salsicha">Salsicha</option>
+            <option value="Border Collie">Border Collie</option>
+            <option value="Pastor Alemão">Pastor Alemão</option>
+            <option value="Cocker">Cocker</option>
+            <option value="Shitzu">Shitzu</option>
+            <option value="semraça">SRD</option>
+        </select>
+        </p>
+         
+        <p>
+            <label class="label6" for="dtanti">Data do último Antipulgas:</label>
+            <input id="anti" name="anti" required="required" type="date" />
+        </p>
+        <p>
+            <label class="label7" for="dtverm">Data do último Vermífugo:</label>
+            <input id="verm" name="verm" required="required" type="date" />
+        </p> 
+
+    </form>
+
+   <h2 class="tutortxt">Informações sobre o Tutor:</h2>
+    <img class="risco2 " src="img/risco.png" alt="">
+     
+    <form class="cadastro" method="get" action="">
+
+        <p>
+            <label class="labelt1" for="Tutor">Nome:<br> </label>
+            <input id="tutor" name="tutor" required="required" type="text" />
+        </p>
+
+        <p>
+            <label class="labelt2" for="dtnasc">Data de Nascimento:</label>
+            <input id="nasc" name="nasc" required="required" type="date" />
+        </p>
+
+        <p>
+            <label class="labelt3" for="cpf">CPF:</label>
+            <input id="cpf" name="cpf" required="required" type="text" placeholder="000.000.000-00" />
+        </p>
+
+        <p>
+            <label class="labelt4" for="cpf">E-mail:</label>
+            <input id="email" name="email" required="required" type="email" placeholder="email@email.com" />
+        </p>
+        <div class="botoes">
+            <input class="b1" type="submit"  formaction="login.html" name="confimar" id="confirmar" value="Confirmar">
+            <input class="b2" type="submit"  formaction="index.html" name="cancelar" id="cancelar" value="Cancelar">
+        </div>
+       
+
+    </form> 
+    <div class="patas">
+        <div class="pata1">
+            <img src="img/pata2.png" alt="">
+        </div>
+        <div class="pata2">
+            <img src="img/pata1.png" alt="">
+        </div>
+        <div class="pata3">
+            <img src="img/pata1.png" alt="">
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

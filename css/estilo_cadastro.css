@@ -1,0 +1,1226 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    height: 100%;
+    margin: 0%;
+    font-family: 'Arima', cursive;
+    text-align: center;
+    
+}
+
+
+.logo {
+    display: inline-flex;
+
+}
+
+.logo img {
+
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: -50px;
+    top: 10px;
+
+}
+
+header {
+    position: relative;
+    display: inline-flex;
+    top: -150px;
+    left: -50px;
+}
+
+h1 {
+    display: inline-flex;
+    font-family: 'Arima', cursive;
+    border: 2px solid rgb(107, 170, 253);
+    background-color: rgb(107, 170, 253);
+    width: 600px;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+section {
+    display: inline-flex;
+    position: relative;
+    right: 10px;
+    align-items: center;
+}
+
+#pesquisaimg{
+    display: inline-flex;
+    position: relative;
+    top:-150px;
+    right: -50px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.search {
+    display: inline-flex;
+    position: relative;
+    width: 40px;
+    top: -135px;
+    right: -50px;
+
+}
+
+.user {
+    display: inline-flex;
+    position: relative;
+    width: 40px;
+    top: -140px;
+    right: -45px;
+
+}
+
+#menu {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    right:-600px;
+    font-size: 24px;
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    padding-left: 100px;
+    z-index: 10000;
+
+}
+
+#menu li {
+    display: flex;
+    position: relative;
+    list-style: none;
+    list-style-type: none;
+    border: 2px solid rgb(107, 170, 253);
+    background-color: rgb(107, 170, 253);
+    border-radius: 8px;
+    padding: 5px;
+    justify-content: center;
+    width: 150px;
+    align-items: center;
+    margin: 15px auto 5px 0px;
+
+
+}
+
+#menu li ul {
+    display: none;
+
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+#menu>ul>li:hover {
+    display: flex;
+    margin-left: -40px;
+    padding-right: 45px;
+    border: 2px solid rgb(107, 170, 253);
+    background-color: rgb(107, 170, 253);
+    justify-content: right;
+    z-index: 10000;
+}
+
+.nav_login>li {
+    list-style: none;
+    list-style-type: none;
+    border-radius: 20px;
+    border-radius: 10%;
+    border: 2px solid rgb(83, 144, 223);
+    background-color: rgb(107, 170, 253);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 210px;
+    width: 150px;
+    position: absolute;
+    right: 240px;
+    top:-120px;
+    z-index: 1000;
+}
+
+
+.nav_login {
+    display: none;
+    list-style: none;
+    list-style-type: none;
+
+}
+
+
+form .login {
+    position: relative;
+    width: 10px;
+    height: -50px;
+    margin-left: 5px;
+    bottom: auto;
+    border-radius: 20px;
+    background-color: rgb(28, 34, 40);
+    border: 2px solid rgb(45, 48, 55);
+    z-index: 1000;
+}
+
+.login .submit {
+    position: relative;
+    width: 130px;
+    top: 180px;
+    left: 2px;
+    border-radius: 10px;
+    background-color: rgb(194, 191, 191);
+    border: 1px solid gray;
+    height: 30px;
+}
+
+
+.login .label1 {
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(151, 195, 253);
+    border-radius: 6px;
+    box-shadow: 2px 2px;
+    border: 2px solid black;
+    left: 15px;
+    border: 40px;
+    top: 10px;
+
+}
+
+.login .label2 {
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(151, 195, 253);
+    border-radius: 6px;
+    box-shadow: 2px 2px;
+    left: 10px;
+    border: 40px;
+    top: 100px;
+
+
+}
+
+.login #nome_login {
+    position: absolute;
+    width: 120px;
+    top: 60px;
+    left: 15px;
+    border-radius: 10px;
+}
+
+.login #senha {
+    position: absolute;
+    width: 120px;
+    top: 150px;
+    left: 15px;
+    border-radius: 10px;
+}
+
+.cont:hover .nav_login {
+    display: flex;
+
+}
+.infopet{
+
+    position: relative;
+    font-size: 24px;
+    top:-200px;
+    left:-250px;
+   
+}
+.risco1{
+    
+    position: relative;
+    top:-300px;
+    left:-250px;
+    height: 200px;
+}
+.label1{
+    
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-350px;
+    left:-300px;
+}
+#pet{
+    
+    position: relative;
+    top:-350px;
+    left:-300px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+}
+.label2{
+    
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-412px;
+    left:-40px;
+}
+#idade{
+    
+    position: relative;
+    top:-390px;
+    left:-120px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    width: 100px;
+}
+.label3{
+   
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-450px;
+    left:120px;
+}
+#peso{
+    
+    position: relative;
+    top:-428px;
+    left:50px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    width: 100px;
+    
+}
+.label4{
+   
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-400px;
+    left:-360px;
+}
+.radio{
+    
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-400px;
+    left:-300px;
+
+}
+.label5{
+   
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-380px;
+    left:-280px;
+}
+.raca{
+    
+    position: relative;
+    font-size: 18px;
+    font-weight: bolder;
+    top:-380px;
+    left:-280px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    color: rgb(8, 8, 8);
+
+}
+.label6{
+    
+    position: relative;
+    font-size: 22px;
+    font-weight: bolder;
+    top:-600px;
+    left:40px;
+    text-align:left;
+}
+#anti{
+    
+    position: relative;
+    top:-570px;
+    left:-140px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+.label7{
+    
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-560px;
+    left:40px;
+}
+#verm{
+    
+    position: relative;
+    top:-530px;
+    left:-145px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+
+.tutortxt{
+   
+    position: relative;
+    font-size: 24px;
+    top:-380px;
+    left:-250px;
+}
+.risco2{
+    
+    position: relative;
+    top:-480px;
+    left:-250px;
+    height: 200px;
+}
+.labelt1{
+   
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-550px;
+    left:-250px;
+}
+#tutor{
+    
+    position: relative;
+    top:-550px;
+    left:-250px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+.labelt2{
+    
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-615px;
+    left:60px;
+}
+#nasc{
+    
+    position: relative;
+    top:-585px;
+    left:-100px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    font-weight: bolder;
+    color: black;
+    
+}
+.labelt3{
+    
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-550px;
+    left:-160px;
+}
+#cpf{
+    
+    position: relative;
+    top:-525px;
+    left:-270px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    font-weight: bolder;
+    
+}
+.labelt4{
+   
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    top:-590px;
+    left:70px;
+}
+#email{
+    
+    position: relative;
+    top:-560px;
+    left:10px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    padding: 2px;
+    font-weight: bolder;
+    color: black;
+}
+
+.botoes{
+    display: inline-block;
+    position: relative;
+    top:-500px;
+    left: -120px;
+    
+
+}
+.b1{
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 60px;
+    border: 2px solid rgb(107, 170, 253);
+    background-color: rgb(107, 170, 253);
+    font-size: 15px;
+}
+.b2{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: 2px solid rgb(168, 170, 173);
+    background-color: rgb(168, 170, 173);
+    font-size: 15px;
+   
+}
+.pata1 {
+    display: inline-flex;
+    position: relative;
+    height: 150px;
+    right: -700px;
+    top: -1300px;
+    z-index: -100;
+
+}
+
+.pata2 {
+    display: inline-flex;
+    position: relative;
+    height: 150px;
+    right: -650px;
+    top: -1100px;
+    z-index: -100;
+
+
+}
+
+.pata3 {
+    display: inline-flex;
+    position: relative;
+    height: 150px;
+    right: -500px;
+    top: -1620px;
+    z-index: -100;
+}
+
+/*_________________________________________________*/
+/*_________________________________________________*/
+/*_____________________resposive___________________*/
+/*_________________________________________________*/
+/*_________________________________________________*/
+@media only screen and (max-width: 1342px) {
+    .logo {
+        display: inline-flex;
+    
+    }
+    
+    .logo img {
+    
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: -50px;
+        top: 10px;
+    
+    }
+    
+    header {
+        position: relative;
+        display: inline-flex;
+        top: -150px;
+        left: -50px;
+    }
+    
+    h1 {
+        display: inline-flex;
+        font-family: 'Arima', cursive;
+        border: 2px solid rgb(107, 170, 253);
+        background-color: rgb(107, 170, 253);
+        width: 300px;
+        justify-content: center;
+        border-radius: 20px;
+    
+    }
+    section {
+        display: inline-flex;
+        position: relative;
+        top: 5px;
+        right: 50px;
+        align-items: center;
+    }
+    .infopet{
+
+        position: relative;
+        font-size: 24px;
+        top:-160px;
+        left:-250px;
+       
+    }
+    .risco1{
+        
+        position: relative;
+        top:-260px;
+        left:-250px;
+        height: 200px;
+    }
+    #menu {
+        display: inline-block;
+        position: relative;
+        top: -100px;
+        right:-400px;
+        font-size: 24px;
+        font-family: 'Arima', cursive;
+        font-weight: bold;
+        padding-left: 100px;
+        z-index: 10000;
+    
+    }
+    
+   
+    .nav_login>li {
+        display: block;
+        list-style: none;
+        list-style-type: none;
+        border-radius: 20px;
+        border-radius: 10%;
+        border: 2px solid rgb(83, 144, 223);
+        background-color: rgb(107, 170, 253);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 210px;
+        width: 150px;
+        position: fixed;
+        right: 360px;
+        top: 100px;
+        z-index: 1000;
+    
+    }
+    
+    
+    .nav_login {
+        display: none;
+        list-style: none;
+        list-style-type: none;
+    
+    }
+    
+    
+    form .login {
+        position: relative;
+        width: 10px;
+        height: -50px;
+        margin-left: 5px;
+        bottom: auto;
+        border-radius: 20px;
+        background-color: rgb(28, 34, 40);
+        border: 2px solid rgb(45, 48, 55);
+        z-index: 1000;
+    }
+    
+    .login .submit {
+        position: relative;
+        width: 130px;
+        top: 180px;
+        left: 2px;
+        border-radius: 10px;
+        border-radius: 10px;
+        background-color: rgb(194, 191, 191);
+        border: 1px solid gray;
+    }
+    
+    
+    .login .label1 {
+        position: absolute;
+        font-size: 20px;
+        background-color: rgb(151, 195, 253);
+        border-radius: 6px;
+        box-shadow: 2px 2px;
+        border: 2px solid black;
+        left: 15px;
+        border: 40px;
+        top: 10px;
+    
+    }
+    
+    .login .label2 {
+        position: absolute;
+        font-size: 20px;
+        background-color: rgb(151, 195, 253);
+        border-radius: 6px;
+        box-shadow: 2px 2px;
+        left: 10px;
+        border: 40px;
+        top: 100px;
+    
+    
+    }
+    
+    .login #nome_login {
+        position: absolute;
+        width: 120px;
+        top: 60px;
+        left: 15px;
+        border-radius: 10px;
+    }
+    
+    .login #senha {
+        position: absolute;
+        width: 120px;
+        top: 150px;
+        left: 15px;
+        border-radius: 10px;
+    }
+    
+    .cont:hover .nav_login {
+        display: flex;
+    
+    }
+    .pata1 {
+        display: inline-flex;
+        position: relative;
+        height: 150px;
+        right: -500px;
+        top: -1350px;
+        z-index: -100;
+    
+    }
+    
+    .pata2 {
+        display: inline-flex;
+        position: relative;
+        height: 150px;
+        right: -400px;
+        top: -1100px;
+        z-index: -100;
+    
+    
+    }
+    
+    .pata3 {
+        display: inline-flex;
+        position: relative;
+        height: 150px;
+        right: -200px;
+        top: -1520px;
+        z-index: -100;
+    }
+
+}
+
+/*_________________________________________________*/
+/*_________________________________________________*/
+/*_____________________resposive___________________*/
+/*_________________________________________________*/
+/*_________________________________________________*/
+@media only screen and (max-width: 970px) {
+    .logo {
+        display: inline-flex;
+    
+    }
+    
+    .logo img {
+    
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: -10px;
+        top: 10px;
+    
+    }
+    
+    header {
+        position: relative;
+        display: inline-block;
+        top: -60px;
+        left: -10px;
+    }
+    
+    h1 {
+        display: inline-flex;
+        font-family: 'Arima', cursive;
+        border: 2px solid rgb(107, 170, 253);
+        background-color: rgb(107, 170, 253);
+        width: 200px;
+        justify-content: center;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 22px;
+    
+    }
+    section {
+        display: inline-flex;
+        position: relative;
+        left:-50px;
+        top:90px;
+        align-items: center;
+    }
+    
+    #pesquisaimg{
+        width: 150px;
+    }
+   
+    .user {
+        display: inline-flex;
+        position: relative;
+        width: 40px;
+        top: -135px;
+        right: -45px;
+    
+    }
+    #menu {
+        display: inline-block;
+        position: relative;
+        top: 0px;
+        right:-170px;
+        font-size: 24px;
+        font-family: 'Arima', cursive;
+        font-weight: bold;
+        padding-left: 100px;
+        z-index: 10000;
+    
+    }
+    
+   
+    .nav_login>li {
+        display: block;
+        list-style: none;
+        list-style-type: none;
+        border-radius: 20px;
+        border-radius: 10%;
+        border: 2px solid rgb(83, 144, 223);
+        background-color: rgb(107, 170, 253);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 210px;
+        width: 150px;
+        position: fixed;
+        right: 200px;
+        top: 130px;
+        z-index: 1000000;
+    
+    }
+    
+    
+    .nav_login {
+        display: none;
+        list-style: none;
+        list-style-type: none;
+    
+    }
+    
+    
+    form .login {
+        position: relative;
+        width: 10px;
+        height: -50px;
+        margin-left: 5px;
+        bottom: auto;
+        border-radius: 20px;
+        background-color: rgb(28, 34, 40);
+        border: 2px solid rgb(45, 48, 55);
+        z-index: 1000;
+    }
+    
+    .login>.submit {
+        position: relative;
+        width: 140px;
+        top: 180px;
+        left: 2px;
+        border-radius: 10px;
+        background-color: rgb(194, 191, 191);
+        border: 1px solid gray;
+    }
+    
+    
+    .login .label1 {
+        position: absolute;
+        font-size: 20px;
+        background-color: rgb(151, 195, 253);
+        border-radius: 6px;
+        box-shadow: 2px 2px;
+        border: 2px solid black;
+        left: 15px;
+        border: 40px;
+        top: 10px;
+    
+    }
+    
+    .login .label2 {
+        position: absolute;
+        font-size: 20px;
+        background-color: rgb(151, 195, 253);
+        border-radius: 6px;
+        box-shadow: 2px 2px;
+        left: 10px;
+        border: 40px;
+        top: 100px;
+    
+    
+    }
+    
+    .login #nome_login {
+        position: absolute;
+        width: 120px;
+        top: 60px;
+        left: 15px;
+        border-radius: 10px;
+    }
+    
+    .login #senha {
+        position: absolute;
+        width: 120px;
+        top: 150px;
+        left: 15px;
+        border-radius: 10px;
+    }
+    
+    .cont:hover .nav_login {
+        display: flex;
+    
+    }
+    .pata1 {
+        display: inline-flex;
+        position: relative;
+        height: 150px;
+        right: -300px;
+        top: -1150px;
+        z-index: -100;
+    
+    }
+    
+    .pata2 {
+        display: inline-flex;
+        position: relative;
+        height: 150px;
+        right: -200px;
+        top: -1000px;
+        z-index: -100;
+    
+    
+    }
+    
+    .pata3 {
+        display: inline-flex;
+        position: relative;
+        height: 150px;
+        right: -50px;
+        top: -1400px;
+        z-index: -100;
+    }
+    .infopet{
+
+        position: relative;
+        font-size: 20px;
+        top:-100px;
+        left:-150px;
+       
+    }
+    
+    .risco1{
+        
+        position: relative;
+        top:-200px;
+        left:-150px;
+        height: 200px;
+    }
+    .label1{
+        font-size: 18px;
+        position: relative;
+        font-weight: bolder;
+        top:-250px;
+        left:-150px;
+    }
+    #pet{
+        
+        position: relative;
+        top:-250px;
+        left:-150px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .label2{
+        
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-305px;
+        left:50px;
+    }
+    #idade{
+        
+        position: relative;
+        top:-280px;
+        left:10px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        width: 100px;
+    }
+    .label3{
+       
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-275px;
+        left:-110px;
+    }
+    #peso{
+        
+        position: relative;
+        top:-250px;
+        left:-160px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        width: 100px;
+        
+    }
+    .label4{
+       
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-305px;
+        left:-15px;
+    }
+    .radio{
+        
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-305px;
+        left:0px;
+    
+    }
+    .label5{
+       
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-345px;
+        left:-80px;
+    }
+    .raca{
+        
+        position: relative;
+        font-size: 14px;
+        font-weight: bolder;
+        top:-320px;
+        left:-160px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        color: rgb(8, 8, 8);
+    
+    }
+    .label6{
+        
+        position: relative;
+        font-size: 20px;
+        font-weight: bolder;
+        top:-320px;
+        left:10px;
+        text-align:left;
+    }
+    #anti{
+        
+        position: relative;
+        top:-290px;
+        left:-180px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        color: rgb(8, 8, 8);
+        font-weight: bold;
+    }
+    .label7{
+        
+        position: relative;
+        font-size: 20px;
+        font-weight: bolder;
+        top:-275px;
+        left:10px;
+    }
+    #verm{
+        
+        position: relative;
+        top:-245px;
+        left:-180px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        color: rgb(8, 8, 8);
+        font-weight: bold;
+    }
+    
+    .tutortxt{
+       
+        position: relative;
+        font-size:20px;
+        top:-225px;
+        left:-140px;
+    }
+    .risco2{
+        
+        position: relative;
+        top:-330px;
+        left:-150px;
+        height: 200px;
+    }
+    .labelt1{
+       
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-400px;
+        left:-150px;
+    }
+    #tutor{
+        
+        position: relative;
+        top:-400px;
+        left:-135px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        
+    }
+    .labelt2{
+        
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-455px;
+        left:150px;
+    }
+    #nasc{
+        
+        position: relative;
+        top:-430px;
+        left:10px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        font-weight: bolder;
+        color: black;
+        
+    }
+    .labelt3{
+        
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-415px;
+        left:-60px;
+    }
+    #cpf{
+        
+        position: relative;
+        top:-390px;
+        left:-150px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        font-weight: bolder;
+        
+    }
+    .labelt4{
+       
+        position: relative;
+        font-size: 18px;
+        font-weight: bolder;
+        top:-445px;
+        left:170px;
+    }
+    #email{
+        
+        position: relative;
+        top:-420px;
+        left:50px;
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 2px;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    .botoes{
+        display: inline-block;
+        position: relative;
+        top:-400px;
+        left:-10px;
+        
+    
+    }
+    .b1{
+        padding: 20px;
+        border-radius: 10px;
+        margin-right: 60px;
+        border: 2px solid rgb(107, 170, 253);
+        background-color: rgb(107, 170, 253);
+        font-size: 15px;
+    }
+    .b2{
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 50px;
+        border: 2px solid rgb(168, 170, 173);
+        background-color: rgb(168, 170, 173);
+        font-size: 15px;
+       
+    }
+}
+/*_________________________________________________*/
+/*_________________________________________________*/
+/*_____________________resposive___________________*/
+/*_________________________________________________*/
+/*_________________________________________________*/
+
+@media only screen and (max-width:700px) {
+    section {
+        display: inline-flex;
+        position: relative;
+        left:50px;
+        top:90px;
+        align-items: center;
+    }
+    .nav_login>li {
+        display: block;
+        list-style: none;
+        list-style-type: none;
+        border-radius: 20px;
+        border-radius: 10%;
+        border: 2px solid rgb(83, 144, 223);
+        background-color: rgb(107, 170, 253);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 210px;
+        width: 150px;
+        position: fixed;
+        right: 220px;
+        top: 180px;
+        z-index: 1000000;
+    
+    }
+}
+

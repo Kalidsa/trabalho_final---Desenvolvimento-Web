@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="css/estilo_agend.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="img/logo-removebg-preview.png" alt=""></a>
+    </div>
+    <header>
+        <h1>Agendamento</h1>
+    </header>
+    <section id="pesquisa">
+        <div class="cont">
+            <img class="user" src="img/user.png" alt="">
+            <ul class="nav_login">
+                <li>
+                    <form class="login" method="post" action="">
+                        <p>
+                            <label class="label1" for="usuario">Seu nome:<br> </label>
+                            <input id="nome_login" name="nome_login" required="required" type="text"
+                                placeholder="Nome de Usuário" />
+                        </p>
+
+                        <p>
+                            <label class="label2" for="senha">Sua senha:</label>
+                            <input id="senha" name="senha" required="required" type="password" placeholder="********" />
+                        </p>
+
+                        <p>
+                            <input class="submit" formaction="login.html" type="submit" value="Logar" />
+                        </p>
+
+                    </form>
+                </li>
+            </ul>
+
+        </div>
+        <form class="pesquisabarra" method="post" action="">
+            <input id="pesquisaimg" name="pesquisa" type="search" placeholder="Pesquisa" />
+            <img class="search" src="img/search.png" alt="">
+    </section>
+    <nav>
+        <div id="menu">
+            <ul class="nav">
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="patas">
+        <div class="pata1">
+            <img src="img/pata2.png" alt="">
+        </div>
+        <div class="pata2">
+            <img src="img/pata1.png" alt="">
+        </div>
+        <div class="pata3">
+            <img src="img/pata1.png" alt="">
+        </div>
+    </div>
+    <h2>Horários disponíveis para a semana:</h2>
+    <div class="tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+
+
+                </tr>
+
+            </thead>
+
+            <tbody class="titulomanha">
+                <tr class="manha">
+                    <td colspan="5">Manhã</td>
+                </tr>
+                <div class="horarios">
+                    <tr >
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">8h</td>
+                        <td class="oito"><input type="checkbox">8h</td>
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">8h</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">9h</td>
+                        <td class="oito"><input type="checkbox">9h</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="oito"> <input type="checkbox">10h</td>
+                        <td class="oito"> <input type="checkbox">10h</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td> &nbsp;</td>
+                        <td class="oito"><input type="checkbox">11h</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">11h</td>
+                    </tr>
+                    <tr class="manha">
+                    <td colspan="5">Tarde</td>
+                </tr>
+                <div class="horarios">
+                   
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">13h</td>
+                        <td class="oito"><input type="checkbox">13h</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="oito"> <input type="checkbox">14h</td>
+                        <td class="oito"> <input type="checkbox">14h</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr >
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">15h</td>
+                        <td class="oito"><input type="checkbox">15h</td>
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">15h</td>
+                    </tr>
+                    <tr >
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">16h</td>
+                        <td class="oito"><input type="checkbox">16h</td>
+                        <td class="oito"><input type="checkbox">16h</td>
+                    </tr>
+                    <tr >
+                        <td class="oito"><input type="checkbox">17h</td>
+                        <td class="oito"><input type="checkbox">17h</td>
+                        <td class="oito"><input type="checkbox">17h</td>
+                        <td class="oito"><input type="checkbox">17h</td>
+                        <td class="oito"><input type="checkbox">17h</td>
+                    </tr>
+                    
+                    <tr>
+                        <td> &nbsp;</td>
+                        <td class="oito"><input type="checkbox">18h</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class="oito"><input type="checkbox">18h</td>
+                    </tr>
+                </div>
+            </tbody>
+
+            </thead>
+            </tbody>
+        </table>
+    </div>
+    <div class="medico">
+    <form class="especialidades" method="post" action="">
+        <p>
+            <label class="label1" for="especiali">Especialidade:<br> </label>
+            <select class="espec">
+                <option >Clinico (a) Geral</option>
+                <option >Cardiologista</option>
+                <option >Cirurgião (ã)</option>
+                <option >Dentista</option>
+                <option >Otorrino</option>
+                <option >Dermatologista</option>
+               
+            </select>
+        </p>
+
+        <p>
+            <label class="label2" for="vet">Veterinário (a):<br> </label>
+            <select class="nomvet">
+                <option >Luke</option>
+                <option >Yoda</option>
+                <option>Kalidsa</option>
+                <option >Leia</option>
+                <option >Nina</option>
+               
+            </select>
+        </p>
+
+        <p>
+            <input class="submit" formaction="agendamento.html" type="submit" value="Agendar" />
+            <input class="cancel" formaction="index.html" type="submit" value="Cancelar" />
+        </p>
+
+    </form>
+</div>
+
+
+</body>
+
+</html>

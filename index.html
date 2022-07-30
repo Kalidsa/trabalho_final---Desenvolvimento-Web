@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="css/estilopg1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="img/logo-removebg-preview.png" alt="">
+        </div>
+        <div class="atendimento">
+            <img class="atende" src="img/Atendimento_24h-removebg-preview.png" alt="">
+        </div>
+        
+        <nav>
+            <div id="menu" >
+                <ul class="nav">
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li class="login"><a href="#">Login</a>
+                        <ul id="login1">
+                            <li>
+                                <form method="post" action="">
+                                    <p>
+                                        <label class="label1" for="usuario">Seu nome:<br> </label>
+                                        <input id="nome_login" name="nome_login" required="required" type="text"
+                                            placeholder="Nome de Usuário" />
+                                    </p>
+
+                                    <p>
+                                        <label class="label2" for="senha">Sua senha:</label>
+                                        <input id="senha" name="senha" required="required" type="password"
+                                            placeholder="********" />
+                                    </p>
+
+                                    <p>
+                                        <input class="submit" formaction="login.html" type="submit" value="Logar" />
+                                    </p>
+
+                                </form>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="serviços.html">Serviços</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="patas">
+            <img class="pata1" src="img/pata2.png" alt="">
+
+            <img class="pata2" src="img/pata1.png" alt="">
+
+            <img class="pata3" src="img/pata1.png" alt="">
+        </div>
+
+        <section class="contato">
+            <p class="p1"> Onde estamos:</p>
+            <p class="p2">Rua Fictícia, número 000 <br>Santa Maria, RS</p>
+            <p class="p3">Telefones para contato:</p>
+            <p class="p4">(DD) 9 9999-9999 / (DD)3333-3333 </p>
+            <div class="imgcontato">
+                <img class="img1" src="img/pino-de-localizacao.png" alt="">
+                <img class="img2" src="img/local.png" alt="">
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
